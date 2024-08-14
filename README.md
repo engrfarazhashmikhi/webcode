@@ -18,8 +18,8 @@ A Docker Based Demo Project, Based on Django Framework.
 <p>In order to execute this project, you have to follow these rules:</p>
 <ol>
   <li>Run docker command <code>docker run -it -P webcode:latest</code>.</li>
-  <li>After intreactive mod started, execute <code>python3 manage.py runserver command with 0.0.0.0:8000</code></li>
-  <li>Open any available web browser and goto <code>http://localhost:port-assigned-by your os</port-assigned></code></li>
+  <li>After intreactive mod started, execute <code>python3 manage.py runserver 0.0.0.0:8000</code></li>
+  <li>Open any available web browser and goto <code>http://localhost:(port-assigned) by your os</port-assigned></code></li>
   <li>Enjoy the demo based on Django Framework.</li>
 </ol>
 <hr/>
