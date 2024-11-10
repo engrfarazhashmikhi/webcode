@@ -20,3 +20,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+    print("\n")
+    skills = [
+        "strings",
+        "numbers",
+        "arrays"
+    ]
+    print("Masterization Of Python Basics (", ", ".join(skills), ") respectively.")
