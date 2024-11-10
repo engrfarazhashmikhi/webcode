@@ -1,9 +1,11 @@
 from django.shortcuts import render
+from myApp.models import skill
 
 # Create your views here.
 
 def index(request):
-    return render(request, "mystar/index.html")
+    skills_list = skill.objects.all()
+    return render(request, "mystar/index.html", {'skills': skills_list})
 def about(request):
     return render(request, "mystar/about.html")
 def contact(request):
