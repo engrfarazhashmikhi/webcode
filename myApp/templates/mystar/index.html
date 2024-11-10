@@ -1,5 +1,17 @@
 {% extends "../base.html" %}
 {% block 'main-content' %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <dl>
+            {% for s in skills %}
+            <dt><h2>#{{ s.id }}: {{ s }}</h2></dt>
+            <dd>{{ s.skills }}</dd>
+            {% endfor %}
+            </dl>
+        </div>
+    </div>
+</div>
 <!-- Features section-->
             <section class="py-5" id="features">
                 <div class="container px-5 my-5">
